@@ -1,0 +1,72 @@
+#root{
+  height: 100%
+}
+
+.ant-layout-header{
+  background: #FFFFFF;
+}
+
+[data-theme="dark"] .ant-layout-header {
+  background: #6aa0c7;
+}
+[data-theme="dark"] .ant-layout-footer {
+  background: #6aa0c7;
+}
+.ant-layout-footer {
+  line-height: 1.5;
+}
+.ant-layout-sider {
+  color: #fff;
+  background: #3ba0e9;
+}
+
+.dashboard-sider{
+  width: 400px!important;
+  max-width: 400px!important;
+}
+
+[data-theme="dark"] .ant-layout-sider {
+  background: #3499ec;
+}
+.ant-layout-content {
+  min-height: 120px;
+  color: #fff;
+  line-height: 120px;
+  background: rgba(16, 142, 233, 1);
+}
+[data-theme="dark"] .ant-layout-content {
+  background: #107bcb;
+}
+> .code-box-demo > .ant-layout + .ant-layout {
+  margin-top: 48px;
+}
+
+.dashboard-helper-button-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.helper-button-icon-container {
+  width:20%;
+  text-align: center;
+  padding-top:24px
+}
+
+.helper-button-text-container {
+  width:80%
+}
